@@ -1,0 +1,6 @@
+[Sound Theme]
+Name=TouchRemix
+Directories=stereo
+
+[stereo]
+OutputProfile=stereo
