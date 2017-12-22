@@ -23,9 +23,11 @@ In `dconf-editor`, change the key `/org/gnome/desktop/sound/input-feedback-sound
 
 Type in a terminal `gnome-session-properties`. It'll give you the list of starting applications. Click on "add", and type the following informations in the dialog shown :
 
-**Name:** `GNOME Login Sound`
-**Command:** `/usr/bin/canberra-gtk-play --id="desktop-login" --description="GNOME Login"`
-**Comment:** `Plays a sound whenever you log in`
+- **Name:** `GNOME Login Sound`
+
+- **Command:** `/usr/bin/canberra-gtk-play --id="desktop-login" --description="GNOME Login"`
+
+- **Comment:** `Plays a sound whenever you log in`
 
 ---
 
